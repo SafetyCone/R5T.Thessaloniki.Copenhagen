@@ -1,0 +1,4 @@
+R5T.Thessaloniki.Copenhagen - A Copenhagen-based (C-drive path) implmentation of the ITemporaryDirectoryPathProvider service for the Thessaloniki project.
+
+Goals
+
