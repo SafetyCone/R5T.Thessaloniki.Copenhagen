@@ -4,4 +4,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Copenhagen.Base\source\R5T.Copenhagen.Base\R5T.Copenhagen.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Thessaloniki.Base\source\R5T.Thessaloniki.Base\R5T.Thessaloniki.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Troy.Base\source\R5T.Troy.Base\R5T.Troy.Base.csproj" />
+  </ItemGroup>
 </Project>
