@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Copenhagen;
 using R5T.Lombardy;
-using R5T.Troy;
+using R5T.Troy;using R5T.T0064;
 
 
 namespace R5T.Thessaloniki.Copenhagen
-{
-    public class CDriveTemporaryDirectoryPathProvider : ITemporaryDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class CDriveTemporaryDirectoryPathProvider : ITemporaryDirectoryPathProvider,IServiceImplementation
     {
         private ICDrivePathProvider CDrivePathProvider { get; }
         private ITemporaryDirectoryNameConvention TemporaryDirectoryNameConvention { get; }
